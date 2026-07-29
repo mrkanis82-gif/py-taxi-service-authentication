@@ -3,8 +3,8 @@
     <li>
       <a href="{% url 'taxi:driver-detail' user.id %}">{{ user.username }}</a>
     </li>
-    {% csrf_token %}
     <form action="{% url 'logout' %}" method="post">
+      {% csrf_token %}
       <button type="submit" style="background: none; border: none; padding: 0; cursor: pointer; color: inherit; font: inherit;">Logout</button>
     </form>
   {% else %}
