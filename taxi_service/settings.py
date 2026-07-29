@@ -112,7 +112,7 @@ LOGIN_URL = "login"
 
 LOGIN_REDIRECT_URL = "/taxi/"
 
-LOGOUT_REDIRECT_URL = "logout"
+LOGOUT_REDIRECT_URL = "login"
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
